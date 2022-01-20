@@ -1,0 +1,14 @@
+#ifndef GLOBAL_CONFIG_H_
+#define GLOBAL_CONFIG_H_
+
+#ifndef ON
+#define ON 1
+#endif
+
+/* Log configurations */
+#cmakedefine SPDLOG_COMPILED_LIB      @SPDLOG_COMPILED_LIB@
+#cmakedefine SPDLOG_SHARED_LIB        @SPDLOG_COMPILED_LIB@
+#cmakedefine spdlog_EXPORTS           @spdlog_EXPORTS@
+
+
+#endif /* GLOBAL_CONFIG_H_ */
